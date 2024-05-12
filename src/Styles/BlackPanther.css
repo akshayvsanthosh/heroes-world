@@ -1,0 +1,49 @@
+/* blackPanther.jsx */
+.pantherComponentDiv{
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("../assets/pantherbackground2.jpg");
+}
+
+.headingPantherComponent{
+    font-family: "Rubik Wet Paint";
+    background:-webkit-linear-gradient(90deg, rgba(0, 0, 0, 1) 20%, rgb(255 255 255) 85%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.pantherCardBg1{
+    background-image: url("../assets/thorFilm3bg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100% !important;
+    display: flex;
+    border-radius: 7px !important;
+}
+
+.pantherCardBg2{
+    background-image: url("../assets/blackPantherfilm2bg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100% !important;
+    display: flex;
+    border-radius: 7px !important;
+}
+
+.pantherCardBg3{
+    background-image: url("../assets/blackPantherfilm1bg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100% !important;
+    display: flex;
+    border-radius: 7px !important;
+}

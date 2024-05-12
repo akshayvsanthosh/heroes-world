@@ -1,0 +1,197 @@
+/* Home */
+.homeDiv{
+    background-image: url("./assets/homebackground.jpg");
+    /* background-image: url("./assets/removedavenger.png"); */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+
+.mainDiv{
+    background-image: url("./assets/homebackground.jpg");
+    /* background-image: url("./assets/removedavenger.png"); */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+
+.blurEffect{
+    height: 100%;
+    width: 100%;
+    backdrop-filter: blur(3PX);
+    background-image: url("./src/assets/homeforeground.png");
+    /* background-image: url(./assets/bgimage.jpg); */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: opacity(.7);
+}
+
+.homeSubHeading{
+    font-size: 17px;
+    font-weight: 526;
+    font-family: "Rubik Wet Paint", system-ui;
+}
+
+.homeSubPara{
+    font-size: 11px;
+    width: 18%;
+}
+
+.homeHeading{
+    color: #fff;
+    font-family: "Titan One";
+    /* font-family: "Rubik Wet Paint", system-ui; */
+    font-size: 149px;
+    text-align: center;
+    padding-top: 11px;
+}
+
+.homeHeadingSpan{
+    font-family: "Rubik Scribble";
+}
+
+.my-atropos {
+    width: 100%;
+    height: 100vh;
+}
+
+.my-atroposBlur{
+    backdrop-filter: blur(7PX);
+}
+
+
+/* Heroes.jsx */
+.heroDiv{
+    background-image: url("./assets/PANTHER.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+
+.heroBlurDiv{
+    height: 100%;
+    width: 100%;
+    backdrop-filter: blur(39PX);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+
+.heroesHeadings{
+    text-align: end;
+    font-size: 14px;
+    font-family: "Rubik Wet Paint";
+}
+
+.heroesParas{
+    text-align: end;
+    font-size: 10px;
+    font-weight: 600;
+}
+
+
+/* CaptainAmerica.jsx */
+.captainComponentDiv{
+    width: 100%;
+    height: 100vh;
+    background-image: url("./assets/shield.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.captainComponentBlurDiv{
+    width: 100%;
+    height: 100%;
+    backdrop-filter: blur(28px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.headingCaptainComponent{
+    font-family: "Rubik Wet Paint";
+    background: -webkit-linear-gradient(270deg, rgba(255, 255, 255, 1) 20%, rgb(6 0 255) 81%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.paraCaptainComponent{
+    padding: 23px 38px 28px 4px;
+}
+
+.captainCardBg1{
+    background-image: url("./assets/cpatainFilm1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100% !important;
+    display: flex;
+    border-radius: 7px !important;
+}
+
+.captainCardBg2{
+    background-image: url("./assets/captainFilm2bg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100% !important;
+    display: flex;
+    border-radius: 7px !important;
+}
+
+.cardBttn{
+    border: 0px;
+    position: absolute;
+    bottom: 10%;
+    left: 23%;
+    border-radius: 13px;
+    font-size: 10px;
+    padding: 5px;
+    font-weight: 600;
+    background-color: burlywood;
+}
+
+.captainCardBg3{
+    background-image: url("./assets/captainFilm3bg..jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100% !important;
+    display: flex;
+    border-radius: 7px !important;
+}
+
+
+
+/* slider.jsx */
+.slider{
+    width:23.1% !important;
+}
+
+
+
+
+
+/* media queries */
+@media (max-width:992px) {
+    #heroes{
+        display: none;
+        
+    }
+}
