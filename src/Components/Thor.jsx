@@ -15,14 +15,14 @@ function CaptainAmerica() {
             <div className='captainComponentBlurDiv position-relative '>
                 <ScrollParallax strength={-0.3} enableOnTouchDevice={false}>
                     <div className="row w-100 " style={{ height: "100%" }}>
-                        <div className="col " style={{ height: "100%" }}>
+                        <div className="col-12 col-lg-5 avatar" style={{height: "100%" }}>
                             <img style={{ height: "91%", left: "4%", top: "6%", filter: "drop-shadow(-32px 4px 11px #000)" }} className='position-absolute' src={thor} alt="Thor Image" />
                         </div>
-                        <div className="col-7  " style={{ height: "100%", padding: "48px 7px 9px 57px" }}>
+                        <div className="col-12 col-lg-7  " style={{ height: "100%", padding: "48px 7px 9px 57px" }}>
                             <h1 className='headingThorComponent'>THOR</h1>
                             <p className='paraCaptainComponent'>Thor Odinson, often called “The Mighty Thor,” is based on the thunder god from Norse mythology. He was created by editor Stan Lee, penciller Jack Kirby, and scripter Larry Lieber.<br /> <br />Thor is one of the gods of Asgard, the mythical realm. He is the son of the Asgardian king, OdinThor possesses superhuman strength, stamina, durability, speed, agility, reflexes, healing, longevity, and heightened senses. He wields control over weather elements, including rain, lightning, and thunder.</p>
 
-                            <div className='row w-100 ' style={{ height: "36%" }}>
+                            <div className='row w-100 film' style={{ height: "36%" }}>
                                 <div className="col-4 " style={{ height: "100%" }}>
 
                                     <div id="app" style={{ width: "75%", height: "100%" }}>

@@ -7,7 +7,7 @@ import { ScrollParallax } from "react-just-parallax";
 
 function Home() {
   return (
-    <ScrollParallax strength={0.22}>
+    <ScrollParallax strength={0.22} enableOnTouchDevice={false}>
       <div id='home' className="homeDiv">
 
         <div id="app">

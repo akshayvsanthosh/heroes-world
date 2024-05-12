@@ -16,10 +16,10 @@ function CaptainAmerica() {
                 <ScrollParallax strength={0.08} enableOnTouchDevice={false}>
 
                     <div className="row w-100 " style={{ height: "100%" }}>
-                        <div className="col-7  " style={{ height: "100%", padding: "48px 7px 9px 57px" }}>
+                        <div className="col-12 col-lg-7  " style={{ height: "100%", padding: "48px 7px 9px 57px" }}>
                             <h1 className='headingPantherComponent'>BLACK PANTHER</h1>
                             <p className='paraCaptainComponent'>Black Panther, whose real name is T’Challa, is a fictional superhero in Marvel Comics. He was created by writer-editor Stan Lee and artist-coplotter Jack Kirby.<br /> <br />As the king of Wakanda, T’Challa serves as the religious leader, commander-in-chief, and protector of his people.His role combines intellect, physical prowess, and access to advanced Wakandan technology.His role combines intellect, physical prowess, and access to advanced Wakandan technology.</p>
-                            <div className='row w-100 ' style={{ height: "36%" }}>
+                            <div className='row w-100 film' style={{ height: "36%" }}>
                                 <div className="col-4 " style={{ height: "100%" }}>
                                 </div>
                                 <div className="col-4 " style={{ height: "100%" }}>
@@ -54,7 +54,7 @@ function CaptainAmerica() {
                                 </div>
                             </div>
                         </div>
-                        <div className="col " style={{ height: "100%" }}>
+                        <div className="col-12 col-lg-5 avatar" style={{ height: "100%" }}>
                             <img style={{ height: "91%", right: "7%", top: "7%", filter: "drop-shadow(-34px 6px 11px #000)" }} className='position-absolute' src={panther} alt="Panther Image" />
                         </div>
                     </div>

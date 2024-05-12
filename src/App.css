@@ -187,9 +187,71 @@
 /* media queries */
 @media (max-width:992px) {
     #heroes{
-        display: none;
-        
+        display: none;   
     }
 
-    
+    .captainDisable{
+        display: none;
+    }
+
+    .homeSubHeading {
+        display: none;
+    }
+
+    .homeSubPara{
+        display: none;
+    }
+
+    .homeHeading{
+        font-size: 100px;
+        padding-top: 71px;
+    }
+
+    .avatar{
+        display: none;
+    }
+}
+
+@media (max-width:778px) {
+    .homeHeading{
+        font-size: 70px;
+        padding-top: 71px;
+    }
+
+    .film{
+        display: none !important;
+    }
+
+    .slider{
+        height: 50% !important;
+    }
+}
+
+@media (max-width:546px) {
+    .homeHeading{
+        font-size: 40px;
+        padding-top: 71px;
+    }
+
+    .footerPara{
+        font-size: 10px;
+    }
+
+    .slider{
+        height: 35% !important;
+    }
+
+    .slider .cardBttn{
+        display: none;
+    }
+}
+
+@media (max-width:398px) {
+    .pantherComponentDiv{
+        height: 133vh !important;
+    }
+
+    .thorComponentDiv{
+        height: 133vh !important;
+    }
 }

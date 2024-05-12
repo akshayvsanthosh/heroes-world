@@ -29,7 +29,7 @@ function CaptainAmerica() {
     })
 
     return (
-        <div id='about' className='captainComponentDiv '>
+        <div id='about' className='captainComponentDiv captainDisable'>
             <div className='captainComponentBlurDiv position-relative '>
                 <div className="row w-100 " style={{ height: "100%" }}>
                     <div className="col-7  " style={{ height: "100%", padding: "48px 7px 9px 57px" }}>
