@@ -1,7 +1,6 @@
 /* Home */
 .homeDiv{
     background-image: url("./assets/homebackground.jpg");
-    /* background-image: url("./assets/removedavenger.png"); */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -11,7 +10,6 @@
 
 .mainDiv{
     background-image: url("./assets/homebackground.jpg");
-    /* background-image: url("./assets/removedavenger.png"); */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -23,8 +21,7 @@
     height: 100%;
     width: 100%;
     backdrop-filter: blur(3PX);
-    background-image: url("./src/assets/homeforeground.png");
-    /* background-image: url(./assets/bgimage.jpg); */
+    background-image: url("./assets/homeforeground.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -45,7 +42,6 @@
 .homeHeading{
     color: #fff;
     font-family: "Titan One";
-    /* font-family: "Rubik Wet Paint", system-ui; */
     font-size: 149px;
     text-align: center;
     padding-top: 11px;
