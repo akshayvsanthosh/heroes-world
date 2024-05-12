@@ -12,7 +12,7 @@ function Home() {
 
         <div id="app">
           {/* Atropos */}
-          <Atropos className="my-atropos my-atroposBlur" shadow={false} rotateXInvert={true} rotateXMax={5} rotateYMax={5} >
+          <Atropos className="my-atropos my-atroposBlur" rotateTouch={'scroll-y'} shadow={false} rotateXInvert={true} rotateXMax={5} rotateYMax={5} >
             <div className='mainDiv' data-atropos-offset="-5" >
 
               <div className='blurEffect' data-atropos-offset="5" >
