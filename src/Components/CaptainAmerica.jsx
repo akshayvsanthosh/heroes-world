@@ -25,7 +25,7 @@ function CaptainAmerica() {
             }
         });
 
-        tl2.to('.captainAmerica', { height: "93%", top: "106%", left: "65%", filter:"drop-shadow( 24px -7px 10px #000)" })
+        tl2.to('.captainAmerica', { height: "93%", top: "106%", left: "65%", filter: "drop-shadow( 24px -7px 10px #000)" })
     })
 
     return (
@@ -44,7 +44,7 @@ function CaptainAmerica() {
                                     <Atropos className="my-atropos" style={{ width: "100%", height: "100%" }}>
                                         <Card className='captainCardBg3' data-atropos-offset="-5">
                                             <a href='https://www.hotstar.com/in/movies/captain-america-civil-war/1260016768?utm_source=gwa' target='_blank'>
-                                                <Card.Img variant="top" src={captainFilm3Text} data-atropos-offset="12" className='position-absolute' style={{top:"30%"}}/>
+                                                <Card.Img variant="top" src={captainFilm3Text} data-atropos-offset="12" className='position-absolute' style={{ top: "30%" }} />
                                                 <button data-atropos-offset="5" className='cardBttn'>WATCH MOVIE</button>
                                             </a>
                                         </Card>
@@ -59,7 +59,7 @@ function CaptainAmerica() {
                                     <Atropos className="my-atropos" style={{ width: "100%", height: "100%" }}>
                                         <Card className='captainCardBg2' data-atropos-offset="-5">
                                             <a href='https://www.hotstar.com/in/movies/captain-america-the-winter-soldier/1260016410?utm_source=gwa' target='_blank'>
-                                                <Card.Img variant="top" src={captainFilm2Text} data-atropos-offset="12" className='position-absolute' style={{top:"50%"}}/>
+                                                <Card.Img variant="top" src={captainFilm2Text} data-atropos-offset="12" className='position-absolute' style={{ top: "50%" }} />
                                                 <button data-atropos-offset="5" className='cardBttn'>WATCH MOVIE</button>
                                             </a>
                                         </Card>
@@ -74,8 +74,8 @@ function CaptainAmerica() {
                                     <Atropos className="my-atropos" style={{ width: "100%", height: "100%" }}>
                                         <Card className='captainCardBg1' data-atropos-offset="-5">
                                             <a href='https://www.youtube.com/watch?v=93YVRWQcQh8' target='_blank'>
-                                                <Card.Img variant="top" src={captainFilm1Cap} data-atropos-offset="5" className='position-absolute '/>
-                                                <Card.Img variant="top" src={captainFilm1Text} data-atropos-offset="12" className='position-absolute' style={{top:"30%"}}/>
+                                                <Card.Img variant="top" src={captainFilm1Cap} data-atropos-offset="5" className='position-absolute ' />
+                                                <Card.Img variant="top" src={captainFilm1Text} data-atropos-offset="12" className='position-absolute' style={{ top: "30%" }} />
                                                 <button className='cardBttn'>WATCH MOVIE</button>
                                             </a>
                                         </Card>

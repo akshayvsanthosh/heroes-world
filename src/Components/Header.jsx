@@ -8,9 +8,9 @@ function Header() {
     return (
         <>
             <Navbar expand="lg" className="bg-transparent pt-0">
-                <Container style={{marginLeft:"55px"}}>
+                <Container style={{ marginLeft: "55px" }}>
                     <Navbar.Brand href=""><img height={"84px"} src={logo} alt="" /></Navbar.Brand>
-                    <Navbar.Toggle className='text-white' aria-controls="basic-navbar-nav" style={{backgroundColor:"#ffffff61"}} />
+                    <Navbar.Toggle className='text-white' aria-controls="basic-navbar-nav" style={{ backgroundColor: "#ffffff61" }} />
                     <Navbar.Collapse id="basic-navbar-nav">
                         <Nav className="ms-auto">
                             <Nav.Link className='fw-bolder text-white me-5 ' href="">HOME</Nav.Link>

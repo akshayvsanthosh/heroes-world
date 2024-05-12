@@ -24,13 +24,13 @@ function Heroes() {
         });
 
         tl.from('.hulk', { bottom: "0%" }, "same")
-            .to('.hulk', { top: "14%", filter:"drop-shadow(0px -16px 15px #000)"}, "same")
+            .to('.hulk', { top: "14%", filter: "drop-shadow(0px -16px 15px #000)" }, "same")
 
             .from('.ironMan', { top: "5%", left: "-30%", }, "same")
-            .to('.ironMan', { top: "21%", left: "22%", filter:"drop-shadow(-26px -24px 8px #000)"}, "same")
+            .to('.ironMan', { top: "21%", left: "22%", filter: "drop-shadow(-26px -24px 8px #000)" }, "same")
 
             .from('.spiderMan', { right: "-30%", top: "5%" }, "same")
-            .to('.spiderMan', { right: "27%", top: "22%", filter:"drop-shadow( 25px -19px 11px #000)"}, "same")
+            .to('.spiderMan', { right: "27%", top: "22%", filter: "drop-shadow( 25px -19px 11px #000)" }, "same")
 
             .from('.thor', { top: "26%", right: "0%" }, "same")
             .to('.thor', { top: "26%", right: "31%" }, "same")
@@ -39,10 +39,10 @@ function Heroes() {
             .to('.captainAmerica', { top: "23%", left: "33%" }, "same")
 
             .from('.batman', { top: "26%", left: "0%", }, "same")
-            .to('.batman', { top: "31%", left: "14%", filter:"drop-shadow(-19px -15px 9px #000)"}, "same")
+            .to('.batman', { top: "31%", left: "14%", filter: "drop-shadow(-19px -15px 9px #000)" }, "same")
 
             .from('.blackPanther', { top: "25%", right: "0%", }, "same")
-            .to('.blackPanther', { top: "29%", right: "23%", filter:"drop-shadow( 25px -19px 11px #000)"}, "same")
+            .to('.blackPanther', { top: "29%", right: "23%", filter: "drop-shadow( 25px -19px 11px #000)" }, "same")
 
     })
 
